@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nana</string>
+    <string name="descripcion">Description</string>
+    <string name="precio">Price</string>
+    <string name="cantidad">Quantity</string>
+</resources>

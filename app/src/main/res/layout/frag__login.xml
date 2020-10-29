@@ -15,7 +15,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.0"
+        android:background="@color/colorPrimary">
 
     </FrameLayout>
 
@@ -83,18 +84,18 @@
                 android:layout_gravity="center_horizontal|center_vertical" />
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
-        android:id="@+id/cardTienda"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_columnWeight="1"
-        app:layout_rowWeight="1"
-        android:layout_marginBottom="6dp"
-        android:layout_marginLeft="6dp"
-        android:layout_marginRight="6dp"
-        app:cardCornerRadius="8dp"
-        app:cardElevation="6dp"
+            android:id="@+id/cardTienda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="6dp"
             android:onClick="onClick"
-        >
+            >
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -109,20 +110,20 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
                 app:srcCompat="@drawable/tienda48" />
-    </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
-        android:id="@+id/cardCarrito"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_columnWeight="1"
-        app:layout_rowWeight="1"
-        android:layout_marginBottom="6dp"
-        android:layout_marginLeft="6dp"
-        android:layout_marginRight="6dp"
-        app:cardCornerRadius="8dp"
-        app:cardElevation="6dp"
+            android:id="@+id/cardCarrito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="6dp"
             android:onClick="onClick"
-        >
+            >
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -131,13 +132,13 @@
                 android:textAlignment="center"
                 android:layout_marginTop="65dp"/>
 
-        <ImageView
-            android:id="@+id/imageCarrito"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/carrito48"
-            android:layout_gravity="center_horizontal|center_vertical" />
-    </androidx.cardview.widget.CardView>
+            <ImageView
+                android:id="@+id/imageCarrito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/carrito48"
+                android:layout_gravity="center_horizontal|center_vertical" />
+        </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
             android:id="@+id/cardlogin"
             android:layout_width="wrap_content"
