@@ -36,7 +36,6 @@ public class Frag_Carrito extends Fragment {
      * @param param2 Parameter 2.
      * @return A new instance of fragment Frag_Carrio.
      */
-    // TODO: Rename and change types and number of parameters
     public static Frag_Carrito newInstance(String param1, String param2) {
         Frag_Carrito fragment = new Frag_Carrito();
         Bundle args = new Bundle();

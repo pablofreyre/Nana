@@ -36,7 +36,6 @@ public class Frag_Favoritos extends Fragment {
      * @param param2 Parameter 2.
      * @return A new instance of fragment Frag_Favoritos.
      */
-    // TODO: Rename and change types and number of parameters
     public static Frag_Favoritos newInstance(String param1, String param2) {
         Frag_Favoritos fragment = new Frag_Favoritos();
         Bundle args = new Bundle();
